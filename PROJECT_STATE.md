@@ -84,20 +84,25 @@ Das Einkommensziel ist eine Ambition, keine Garantie.
 
 ## 9. Aktueller Status
 
-**Session 1 abgeschlossen.**
+**Session 1 abgeschlossen:** Entwicklungsumgebung eingerichtet, erstes Python-Programm ausgeführt und auf GitHub gesichert.
 
-Die Entwicklungsumgebung funktioniert und das erste Python-Programm wurde erfolgreich auf GitHub gesichert.
+**Session 2 – erste Logistikdatenanalyse begonnen:**
 
-**Session 2: Grundlagen der Datenanalyse anhand eines kleinen Logistikdatensatzes.**
+* `pandas` in der virtuellen Umgebung installiert.
+* Synthetische Logistikdaten für Sorter, Förderband und Shuttle erstellt.
+* Gesamte Stillstandszeit berechnet: 45 Minuten.
+* Stillstandszeit nach Anlagentyp gruppiert.
+* Prozentualen Anteil je Anlagentyp berechnet: Sorter 66,7 %, Förderband 33,3 %, Shuttle 0 %.
+* Analyse erfolgreich ausgeführt und Commit `3566770` zu GitHub übertragen.
+
+**Einschränkung:** Die fünf Datensätze sind künstliche Beispieldaten. Die Ergebnisse belegen keine realen Anlagenprobleme und erlauben noch keine belastbare Berechnung wirtschaftlicher Verluste.
 
 ## 10. NEXT ACTION
 
-Nach dem Speichern dieser Datei:
-
-1. `PROJECT_STATE.md` mit Git versionieren und zu GitHub übertragen.
-2. Einen kleinen synthetischen Logistikdatensatz erstellen.
-3. Python nutzen, um erste Kennzahlen zu berechnen, beispielsweise Stillstandszeit und Durchsatz.
-4. Die Ergebnisse fachlich interpretieren und später als Portfolio-Projekt dokumentieren.
+1. `PROJECT_STATE.md` aktualisieren und zu GitHub übertragen.
+2. Die Analyse um eine Kennzahl erweitern, die Stillstand und Paketdurchsatz gemeinsam betrachtet.
+3. Lernen, welche Aussagen die Daten erlauben und welche zusätzlichen Daten für Kundenentscheidungen erforderlich sind.
+4. Das Portfolio-Projekt schrittweise in Richtung einer nachvollziehbaren, wiederverwendbaren Logistikdiagnose ausbauen.
 
 ## 11. Session-Abschluss
 
